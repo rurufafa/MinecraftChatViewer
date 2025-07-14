@@ -1,0 +1,397 @@
+# Group: Man10Rank
+Description: Man10Rankを装飾コード付きランクに置換する
+Priority: 0
+
+# Rule: Guest
+MatchMode: Regex
+ReplaceText: [§f§lGuest§r]
+<Match>
+Regex: ^\[Guest]
+ReplaceMode: partial
+
+# Rule: BRONZE
+MatchMode: Regex
+ReplaceText: [§6§lBRONZE§r]
+<Match>
+Regex: ^\[BRONZE]
+ReplaceMode: partial
+
+# Rule: IRON
+MatchMode: Regex
+ReplaceText: [§7§lIRON§r]
+<Match>
+Regex: ^\[IRON]
+ReplaceMode: partial
+
+# Rule: GOLD
+MatchMode: Regex
+ReplaceText: [§e§lGOLD§r]
+<Match>
+Regex: ^\[GOLD]
+ReplaceMode: partial
+
+# Rule: DIAMOND
+MatchMode: Regex
+ReplaceText: [§b§lDIAMOND§r]
+<Match>
+Regex: ^\[DIAMOND]
+ReplaceMode: partial
+
+# Rule: Tourist
+MatchMode: Regex
+ReplaceText: [§f§lTourist§r]
+<Match>
+Regex: ^\[Tourist]
+ReplaceMode: partial
+
+# Rule: Crafter
+MatchMode: Regex
+ReplaceText: [§6§lCrafter§r]
+<Match>
+Regex: ^\[Crafter]
+ReplaceMode: partial
+
+# Rule: Crafter+
+MatchMode: Regex
+ReplaceText: [§6§lCrafter§2§l+§r]
+<Match>
+Regex: ^\[Crafter\+]
+ReplaceMode: partial
+
+# Rule: Expert
+MatchMode: Regex
+ReplaceText: [§7§lExpert§r]
+<Match>
+Regex: ^\[Expert]
+ReplaceMode: partial
+
+# Rule: Expert+
+MatchMode: Regex
+ReplaceText: [§7§lExpert§2§l+§r]
+<Match>
+Regex: ^\[Expert\+]
+ReplaceMode: partial
+
+# Rule: Miner
+MatchMode: Regex
+ReplaceText: [§e§lMiner§r]
+<Match>
+Regex: ^\[Miner]
+ReplaceMode: partial
+
+# Rule: Miner+
+MatchMode: Regex
+ReplaceText: [§e§lMiner§2§l+§r]
+<Match>
+Regex: ^\[Miner\+]
+ReplaceMode: partial
+
+# Rule: SMiner
+MatchMode: Regex
+ReplaceText: [§b§lS§e§lMiner§r]
+<Match>
+Regex: ^\[SMiner]
+ReplaceMode: partial
+
+# Rule: SMiner+
+MatchMode: Regex
+ReplaceText: [§b§lS§e§lMiner§2§l+§r]
+<Match>
+Regex: ^\[SMiner\+]
+ReplaceMode: partial
+
+# Rule: Breaker
+MatchMode: Regex
+ReplaceText: [§a§lBreaker§r]
+<Match>
+Regex: ^\[Breaker]
+ReplaceMode: partial
+
+# Rule: Breaker+
+MatchMode: Regex
+ReplaceText: [§a§lBreaker§2§l+§r]
+<Match>
+Regex: ^\[Breaker\+]
+ReplaceMode: partial
+
+# Rule: Destroyer
+MatchMode: Regex
+ReplaceText: [§0§lDestroyer§r]
+<Match>
+Regex: ^\[Destroyer]
+ReplaceMode: partial
+
+# Rule: Destroyer+
+MatchMode: Regex
+ReplaceText: §0§ka§0§lDestroyer§0§ka§r
+<Match>
+Regex: ^aDestroyera
+ReplaceMode: partial
+
+# Rule: Disaster
+MatchMode: Regex
+ReplaceText: §5§ka§5§lDisaster§5§ka§r
+<Match>
+Regex: ^aDisastera
+ReplaceMode: partial
+
+# Rule: Disaster+
+MatchMode: Regex
+ReplaceText: §5§ka§5§lDisaster§0§l+§5§ka§r
+<Match>
+Regex: ^aDisaster\+a
+ReplaceMode: partial
+
+# Rule: Beginner
+MatchMode: Regex
+ReplaceText: [§6§lBeginner§r]
+<Match>
+Regex: ^\[Begginer]
+ReplaceMode: partial
+
+# Rule: Gambler
+MatchMode: Regex
+ReplaceText: [§7§lGambler§r]
+<Match>
+Regex: ^\[Gambler]
+ReplaceMode: partial
+
+# Rule: VIP
+MatchMode: Regex
+ReplaceText: [§e§lVIP§r]
+<Match>
+Regex: ^\[VIP]
+ReplaceMode: partial
+
+# Rule: Beginner+
+MatchMode: Regex
+ReplaceText: [§6§lBeginner§d+§r]
+<Match>
+Regex: ^\[Beginner\+]
+ReplaceMode: partial
+
+# Rule: Amateur
+MatchMode: Regex
+ReplaceText: [§a§lAmateur§r]
+<Match>
+Regex: ^\[Amateur]
+ReplaceMode: partial
+
+# Rule: Amateur+
+MatchMode: Regex
+ReplaceText: [§a§lAmateur§d+§r]
+<Match>
+Regex: ^\[Amateur\+]
+ReplaceMode: partial
+
+# Rule: Angler
+MatchMode: Regex
+ReplaceText: [§7§lAngler§r]
+<Match>
+Regex: ^\[Angler]
+ReplaceMode: partial
+
+# Rule: Angler+
+MatchMode: Regex
+ReplaceText: [§7§lAngler§d+§r]
+<Match>
+Regex: ^\[Angler\+]
+ReplaceMode: partial
+
+# Rule: ProAngler
+MatchMode: Regex
+ReplaceText: [§6§lPro§7§lAngler§r]
+<Match>
+Regex: ^\[ProAngler]
+ReplaceMode: partial
+
+# Rule: ProAngler+
+MatchMode: Regex
+ReplaceText: [§6§lPro§7§lAngler§d+§r]
+<Match>
+Regex: ^\[ProAngler\+]
+ReplaceMode: partial
+
+# Rule: Fisherman
+MatchMode: Regex
+ReplaceText: [§c§lFisherman§r]
+<Match>
+Regex: ^\[Fisherman]
+ReplaceMode: partial
+
+# Rule: Fisherman+
+MatchMode: Regex
+ReplaceText: [§c§lFisherman§4+§r]
+<Match>
+Regex: ^\[Fisherman\+]
+ReplaceMode: partial
+
+# Rule: Farmer
+MatchMode: Regex
+ReplaceText: [§6§lFarmer§r]
+<Match>
+Regex: ^\[Farmer]
+ReplaceMode: partial
+
+# Rule: Trader
+MatchMode: Regex
+ReplaceText: [§6§lTrader§r]
+<Match>
+Regex: ^\[Trader]
+ReplaceMode: partial
+
+# Rule: GM
+MatchMode: Regex
+ReplaceText: [§4§lGM§r]
+<Match>
+Regex: ^\[GM]
+ReplaceMode: partial
+
+# Rule: Catastrophe
+MatchMode: Regex
+ReplaceText: §4§ka§4§lCatastrophe§4§ka§r
+<Match>
+Regex: ^aCatastrophea
+ReplaceMode: partial
+
+# Group: Man10PluginRegex
+Description: man10のプラグインを装飾(正規表現)
+Priority: 0
+
+# Rule: Man10Bank
+MatchMode: Regex
+ReplaceText: [§e§lMan10Bank§f]§r§e
+<Match>
+Regex: ^\[Man10Bank]
+ReplaceMode: partial
+
+# Rule: Man10Score
+MatchMode: Regex
+ReplaceText: §b[§d§lMan10Score§b]§r§a
+<Match>
+Regex: ^\[Man10Score]
+ReplaceMode: partial
+
+# Rule: Man10RealEstate
+MatchMode: Regex
+ReplaceText: [§5Man10RealEstate§f]§r
+<Match>
+Regex: ^\[Man10RealEstate]
+ReplaceMode: partial
+
+# Rule: Alert
+MatchMode: Regex
+ReplaceText: §8[§4Alert§8]§r§f
+<Match>
+Regex: ^\[Alert]
+ReplaceMode: partial
+
+# Rule: Market
+MatchMode: Regex
+ReplaceText: §4[§2Market§4]§r§e
+<Match>
+Regex: ^\[Market]
+ReplaceMode: partial
+
+# Rule: ShulkerBoxProtect
+MatchMode: Regex
+ReplaceText: §9[ShulkerBoxProtect]§r§f
+<Match>
+Regex: ^\[ShulkerBoxProtect]
+ReplaceMode: partial
+
+# Group: Man10PluginFilters
+Description: man10のプラグインを装飾(フィルター)
+Priority: 0
+
+# Rule: ClearLag count
+MatchMode: Filters
+ReplaceText: §4[ClearLag]§r§e{m(10:)}
+<Match>
+Type: StartsWithAny
+Keywords:
+[ClearLag]
+Type: ContainsAny
+Keywords:
+アイテムが削除され
+
+# Rule: ClearLag result
+MatchMode: Filters
+ReplaceText: §6[ClearLag]§r§a{m(10:)}
+<Match>
+Type: StartsWithAny
+Keywords:
+[ClearLag]
+Type: NotContainsAll
+Keywords:
+アイテムが削除され
+
+# Rule: Man10King default
+MatchMode: Filters
+ReplaceText: §f[§dMan§f10§a国王§f]§r§e{m(9:-13)}§fよ、§eプレイコイン§fをあげよう
+<Match>
+Type: StartsWithAny
+Keywords:
+[Man10国王]
+Type: ContainsAny
+Keywords:
+プレイコイン
+
+# Rule: Man10King full
+MatchMode: Filters
+ReplaceText: §f[§dMan§f10§a国王§f]§r§e{m(9:-24)}§fよ、インベントリがいっぱいだぞ、足元においとくね
+<Match>
+Type: StartsWithAny
+Keywords:
+[Man10国王]
+Type: NotContainsAll
+Keywords:
+プレイコイン
+
+# Rule: Man10ShopV3 success
+MatchMode: Filters
+ReplaceText: §6[§eMan10Shop§dV3§6]§r§a{m(13:)}
+<Match>
+Type: StartsWithAny
+Keywords:
+[Man10ShopV3]
+Type: ContainsAny
+Keywords:
+成功
+取り出しました
+しまいました
+
+# Rule: Man10ShopV3 failure
+MatchMode: Filters
+ReplaceText: §6[§eMan10Shop§dV3§6]§r§c{m(13:)}
+<Match>
+Type: StartsWithAny
+Keywords:
+[Man10ShopV3]
+Type: NotContainsAll
+Keywords:
+成功
+取り出しました
+しまいました
+
+# Rule: e-money
+MatchMode: Filters
+ReplaceText: §e{m(0:)}
+<Match>
+Type: StartsWithAny
+Keywords:
+電子マネー
+
+# Group: Man10 entry exit
+Description: 入退室ログ
+Priority: 0
+
+# Rule: entry or exit
+MatchMode: Filters
+ReplaceText: §e{m(0:)}
+<Match>
+Type: EndsWithAny
+Keywords:
+ゲームに参加しました
+ゲームを退出しました
+
