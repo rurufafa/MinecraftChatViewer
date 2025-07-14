@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>KeywordWindow</class>
+ <widget class="QDialog" name="KeywordWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="blackListLayout">
+       <item>
+        <widget class="QLabel" name="lblBlackTitle">
+         <property name="text">
+          <string>&lt;b&gt;ブラックリスト&lt;/b&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::TextFormat::RichText</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblBlackDescription">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;ブロックモードがONのとき&lt;br/&gt;以下の単語を含むログを非表示にする&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::TextFormat::RichText</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="blackList">
+         <property name="selectionMode">
+          <enum>QAbstractItemView::SelectionMode::ExtendedSelection</enum>
+         </property>
+         <property name="resizeMode">
+          <enum>QListView::ResizeMode::Fixed</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="blackInputLayout">
+         <item>
+          <widget class="QLineEdit" name="leBlackInput">
+           <property name="placeholderText">
+            <string>ブラックリストを追加</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnBlackAdd">
+           <property name="text">
+            <string>追加</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="blackButtonLayout">
+         <item>
+          <widget class="QPushButton" name="btnBlackDelete">
+           <property name="text">
+            <string>削除</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnBlackClear">
+           <property name="text">
+            <string>クリア</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="whiteListLayout">
+       <item>
+        <widget class="QLabel" name="lblWhiteTitle">
+         <property name="text">
+          <string>&lt;b&gt;ホワイトリスト&lt;/b&gt;</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::TextFormat::RichText</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblWhiteDescription">
+         <property name="text">
+          <string>除外モードがONのとき&lt;br&gt;以下の単語を含むログのみ表示する</string>
+         </property>
+         <property name="textFormat">
+          <enum>Qt::TextFormat::RichText</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="whiteList">
+         <property name="selectionMode">
+          <enum>QAbstractItemView::SelectionMode::ExtendedSelection</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="whiteInputLayout">
+         <item>
+          <widget class="QLineEdit" name="leWhiteInput">
+           <property name="placeholderText">
+            <string>ホワイトリストを追加</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnWhiteAdd">
+           <property name="text">
+            <string>追加</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="whiteButtonLayout">
+         <item>
+          <widget class="QPushButton" name="btnWhiteDelete">
+           <property name="text">
+            <string>削除</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnWhiteClear">
+           <property name="text">
+            <string>クリア</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="mainButtonLayout">
+     <item>
+      <widget class="QPushButton" name="btnImport">
+       <property name="text">
+        <string>インポート</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnExport">
+       <property name="text">
+        <string>エクスポート</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnApply">
+       <property name="text">
+        <string>適用</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnCancel">
+       <property name="text">
+        <string>キャンセル</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
